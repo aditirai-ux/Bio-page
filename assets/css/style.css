@@ -7,6 +7,8 @@
 .header{
     background-color: darkgreen;
     border: 5px solid grey;
+    padding: 10px;
+    text-align: right;
 }
 
 .footer{
@@ -28,13 +30,10 @@
     text-align: center;
     padding: 10px;
     display: block;
-    border: border-box;
 }
 
-#links{
-    display:inline;
-    text-align: right;
-    color: white;
+.mid-section{
+    background-color: lightgrey;
 }
 
 #but{
@@ -43,4 +42,35 @@
     margin: auto;
     display: block;
     
+}
+
+#heading{
+    text-align: center;
+    padding: 30px;
+}
+
+#image{
+    display:block;
+    margin: auto;
+    padding: 10px;
+}
+
+#para{
+    padding: 20px;
+    text-align: center;
+}
+
+#git{
+    display: inline;
+    color: white;
+}
+
+#port{
+    display: inline;
+    color: white;
+}
+
+#cont{
+    display: inline;
+    color: white;
 }
